@@ -138,6 +138,10 @@ let g:go_fmt_command = "goimports"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Ruby
+let g:syntastic_ruby_checkers = ['rubocop']
+let g:syntastic_haml_checkers = ['haml_lint']
+
 " Python
 let g:syntastic_python_checkers=['pyflakes']
 
