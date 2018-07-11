@@ -162,6 +162,8 @@ endfunc
 nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 let g:syntastic_mode_map = { 'mode': 'passive' }
 
+noremap <LEADER>sc :SyntasticCheck<CR>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git gutter (Git diff)
