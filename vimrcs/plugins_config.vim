@@ -73,7 +73,7 @@ let NERDTreeShowHidden=0
 let NERDTreeQuitOnOpen=0
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 let g:NERDTreeWinSize=35
-map <leader>n :NERDTreeToggle<cr>
+map <leader>n :NERDTreeTabsToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
 
