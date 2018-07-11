@@ -306,6 +306,10 @@ if has("mac") || has("macunix")
   vmap <D-k> <C-k>
 endif
 
+" Copy selection
+vnoremap <C-c> :w !pbcopy<CR><CR>
+vnoremap <C-x> :!pbcopy<CR>
+
 " Delete trailing white space on save, useful for some filetypes ;)
 fun! CleanExtraSpaces()
     let save_cursor = getpos(".")
