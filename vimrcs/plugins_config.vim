@@ -160,6 +160,7 @@ func! SyntasticCheckCoffeescript()
     execute "Errors"
 endfunc
 nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
+let g:syntastic_mode_map = { 'mode': 'passive' }
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
