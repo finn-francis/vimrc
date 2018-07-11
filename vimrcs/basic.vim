@@ -66,7 +66,7 @@ nmap <leader>q :q<cr>
 nmap <leader>wq :wq!<cr>
 
 " Exit insert mode quickly
-imap jk <Esc>
+imap jk <Esc>:w!<CR>
 
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
