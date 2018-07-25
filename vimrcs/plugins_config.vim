@@ -28,6 +28,7 @@ map <leader>o :BufExplorer<cr>
 " => CTRL-P
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_dotfiles = 1
 
 let g:ctrlp_map = '<c-f>'
 map <C-p> :CtrlP<cr>
@@ -66,7 +67,7 @@ set grepprg=/bin/grep\ -nH
 " => Nerd Tree
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDTreeWinPos = "right"
-let NERDTreeShowHidden=0
+let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=0
 let NERDTreeIgnore = ['\.pyc$', '__pycache__', '\.git']
 let g:NERDTreeWinSize=35
