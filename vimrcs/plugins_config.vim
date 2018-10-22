@@ -36,7 +36,7 @@ map <c-b> :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.yardoc\|public$|log\|tmp$\|coverage$',
+  \ 'dir':  '\.git$\|\.yardoc\|public$|log\|tmp$\|coverage\|node_modules$',
   \ 'file': '\.so$\|\.dat$\|\.DS_Store$/|dump\.sql/|tags$'
 \ }
 let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
