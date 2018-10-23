@@ -65,6 +65,9 @@ nmap <leader>s :w!<cr>
 nmap <leader>q :q<cr>
 nmap <leader>wq :wq!<cr>
 
+vmap <leader>c :!pbcopy<cr>u
+vmap <leader>x :!pbcopy<cr>
+
 " Exit insert mode quickly
 imap jk <Esc>:w!<CR>
 
@@ -344,7 +347,7 @@ map <leader>s? z=
 noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 
 " Quickly open a markdown buffer for scribble
-map <leader>x :e ~/buffer.md<cr>
+nmap <leader>x :e ~/buffer.md<cr>
 
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
